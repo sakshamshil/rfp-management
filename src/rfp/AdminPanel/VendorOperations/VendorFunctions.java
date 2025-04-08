@@ -15,7 +15,6 @@ public class VendorFunctions {
 
         } catch (SQLException | ClassNotFoundException e) {
             System.out.println(e.getMessage());
-            return;
         }
     }
 
