@@ -1,6 +1,5 @@
 package rfp;
 
-import rfp.AdminPanel.VendorOperations.VendorFunctions;
 import rfp.Auth.AuthenticationMenu;
 
 import java.util.Scanner;
