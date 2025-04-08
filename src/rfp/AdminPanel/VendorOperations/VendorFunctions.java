@@ -99,7 +99,7 @@ public class VendorFunctions {
         int id = input.nextInt();
         input.nextLine();
         try {
-            String Query = "Delete from vendor where user_id = ?";
+            String Query = "Delete from user where user_id = ?";
             PreparedStatement Statement = connection.prepareStatement(Query);
             Statement.setInt(1, id);
             int affected = Statement.executeUpdate();
